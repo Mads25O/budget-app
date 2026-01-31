@@ -1,0 +1,14 @@
+Man skal kunne tilføje kviteringer
+
+Alle kviteringer har følgende data:
+    Alle varer og deres pris
+    En OPTIONAL rabat % (eller bare kr sparet)
+    Dato
+    Butik
+    Kategori
+    
+Der skal være en total for hver måned/uge.
+
+Man skal kunne se hvad der er blevet brugt flest penge på (både kategori og vare)
+
+Når man tilføjer en kvitering, "opretter" man ligesom varene, hvis de ikke allerede eksistere. Så man kan enten vælge en vare der allerede findes, for eksempel hvis der allerede er blevet købt en monster før, har systemet allerede den viden, og man kan bare tilføje den, og hvis ikke skal man oprette den. 
