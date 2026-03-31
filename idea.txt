@@ -12,3 +12,16 @@ Der skal være en total for hver måned/uge.
 Man skal kunne se hvad der er blevet brugt flest penge på (både kategori og vare)
 
 Når man tilføjer en kvitering, "opretter" man ligesom varene, hvis de ikke allerede eksistere. Så man kan enten vælge en vare der allerede findes, for eksempel hvis der allerede er blevet købt en monster før, har systemet allerede den viden, og man kan bare tilføje den, og hvis ikke skal man oprette den. 
+
+NY IDEA
+Indtast løn, su, su løn og whatever
+Lav en daily available, total available
+
+HVORDAN DEN SKAL LAVES
+Man skal kunne tilføje løn for måneden
+SU og SU lån er et fixed beløb, men kan godt ændres 
+Lån man tilføjer, bliver tilføjet til en database
+Databasen har Salary table, Receipts, Subscriptions
+Salary table: Month, Salary
+Receipts table: Date, Store, Item, Amount, Price, Discount, Total
+Subscriptions table: Name, Price, Quaterly/Yearly/Monthly (skal finde på et bedre navn)
